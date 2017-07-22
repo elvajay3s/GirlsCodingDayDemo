@@ -412,8 +412,10 @@ body {
   border: 1px solid gray;
   position: absolute;
   display:none;
+  background: white
 }
 .showimg:hover img{
   left: 0;
   display:block;
+  z-index: 1;
 }
